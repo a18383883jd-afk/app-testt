@@ -5,9 +5,11 @@ package.domain = org.test
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
 version = 0.1
-requirements = python3,kivy,requests,urllib3,chardet,idna,openssl,certifi
+requirements = openssl,python3,kivy,requests,urllib3,chardet,idna,certifi
 android.permissions = INTERNET, WRITE_EXTERNAL_STORAGE
 android.accept_sdk_license = True
+android.ndk = 21e
+android.ndk_api = 21
 
 [buildozer]
 log_level = 2
