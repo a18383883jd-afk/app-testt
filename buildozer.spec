@@ -7,6 +7,7 @@ source.include_exts = py,png,jpg,kv,atlas
 version = 0.1
 requirements = python3,kivy,requests,urllib3,chardet,idna,openssl,certifi
 android.permissions = INTERNET, WRITE_EXTERNAL_STORAGE
+android.accept_sdk_license = True
 
 [buildozer]
 log_level = 2
